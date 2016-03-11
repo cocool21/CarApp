@@ -25,7 +25,11 @@ public class CarApp {
 		
 		red.setSpeed(rnd.nextInt(50));
 		blue.setSpeed(rnd.nextInt(50));
+		
 		}
+		
+		System.out.println(red.Run());
+		System.out.println(blue.Run());
 		System.out.println(red.Stop());
 		System.out.println(blue.Stop());
 	
